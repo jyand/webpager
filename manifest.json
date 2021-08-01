@@ -1,0 +1,21 @@
+{
+        "manifest_version": 2,
+        "name": "HTTPSonly",
+        "author": "John DeSalvo", 
+        "version": "1.0",
+        "icons": {
+                "16": "icons/wp16.png",
+                "32": "icons/wp32.png",
+                "48": "icons/wp48.png"
+        },
+        "browser_action": {
+                "newtab": "pager.html",
+                "default_popup": "pager.html",
+                "default_icon": "icons/wp32.png",
+                "default_title": "WebPager"
+        },
+        "permissions": [
+                "scripting",
+                "activateTab"
+        ]
+}
